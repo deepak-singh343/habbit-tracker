@@ -1,0 +1,79 @@
+body{
+    background-image: url('/images/mountain4.jpg'); 
+}
+
+.fa-home{
+    font-size:50px;
+    float:right;
+    margin-bottom:20px;
+}
+
+table th{
+    color: darkred;
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+
+.icons i{
+    font-size: 320%;
+    margin-left: 30%;
+}
+
+select {
+  border-radius: 4px;
+  font-size: medium;
+  cursor: pointer;
+  background-color: #2bafc0;
+  color: white;
+  padding: 4px;
+  border: none;
+}
+
+#wed{
+    margin-left:20px;
+}
+
+select option{
+    font-size: small;
+}
+
+.fa-check-circle{
+    color:rgb(12, 207, 159);
+}
+
+.fa-times-circle{
+    color: rgb(19, 19, 65);
+}
+
+.fa-minus{
+    color: brown;
+}
+
+#save-btn{
+    font-weight: bolder;
+    font-size: 22px;
+    width: 10%;
+    color: #fff !important;
+    letter-spacing: 3px;
+    background: #055b94e3;
+    padding:15px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+#save-btn:hover{
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.symbol-detail{
+    display:flex;
+    font-size:50px;
+    margin-top:5%;
+    justify-content: space-evenly;
+}

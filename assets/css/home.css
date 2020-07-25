@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+     background-image: url('/images/climb2.jpg'); 
+} 
+
+.heading{
+    font-size: xx-large;
+    position: relative;
+    color:rgb(56, 87, 56);
+    top: 5%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.main{
+    height: 76vh;
+    width: 90vh;
+    position: relative;
+    left: 29%;
+    top: 6%;
+    text-align: center;
+}
+
+form{
+    height: 16vh;
+}
+
+#main-input{
+    width: 60%;
+    height: 31%;
+    margin-top: 6%;
+    color:rgb(5, 49, 66);
+    font-size:17px;
+    font-weight:500;
+}
+
+::placeholder{
+    color:rgb(5, 49, 66);
+    font-size:17px;
+    font-weight:500;
+}
+
+#main-btn{
+    width: 25%;
+    height: 51%;
+    font-weight: bolder;
+    color: #fff;
+    background: #055b94e3;
+    border-radius: 5px;
+    border: none;
+}
+
+#main-btn:hover{
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.main li{
+    margin-left: 6%;
+    display: flex;
+    list-style-type: none;
+}
+
+.habbit-name{
+    font-size:40px;
+    font-weight: 800;
+}
+.habbit-track{
+    position:absolute;
+    font-size:40px;
+    font-weight: 800;
+    left:70%;
+    color:crimson;
+}
+
+.fa-trash-alt{
+    position:absolute;
+    font-size:40px;
+    font-weight: 800;
+    left:87%;
+    color:crimson;
+}
